@@ -1,7 +1,7 @@
 <h2 align="center"> 30DaysOfCSS 🖌🚀 <h2>
 
 ##
-Hello
+Hello2
 
 
 ## 📝 About 
