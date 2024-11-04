@@ -1,5 +1,5 @@
 body {
-  background: pink;
+  background: white;
 }
 
 input {
@@ -27,18 +27,18 @@ input {
 
 .icon.item {
   font-size: 35px;
-  color: white;
+  color: red;
 }
 
 .btn {
-  background: #101E53;
+  background: #000000;
   font-size: 10px;
 
   display: grid;
   place-items: center;
   place-content: center;
 
-  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition: all 1s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
 .btn:not(:first-child) {
@@ -49,42 +49,42 @@ input {
 
 .btn:nth-child(2) {
   top: 0px;
-  transition-delay: 0s;
+  transition-delay: 1s;
 }
 
 .btn:nth-child(3) {
   top: 0px;
   left: 0px;
-  transition-delay: 0.1s;
+  transition-delay: 1.1s;
 }
 
 .btn:nth-child(4) {
   left: 0px;
-  transition-delay: 0.2s;
+  transition-delay: 1.2s;
 }
 
 .btn:nth-child(5) {
   top: 0px;
   left: 0px;
-  transition-delay: 0.3s;
+  transition-delay: 1.3s;
 }
 .btn:nth-child(6) {
   top: 0px;
-  transition-delay: 0.4s;
+  transition-delay: 1.4s;
 }
 .btn:nth-child(7) {
   top: 0px;
   left: 0px;
-  transition-delay: 0.5s;
+  transition-delay: 1.5s;
 }
 .btn:nth-child(8) {
   left: 0px;
-  transition-delay: 0.6s;
+  transition-delay: 1.6s;
 }
 .btn:nth-child(9) {
   top: 0px;
   left: 0px;
-  transition-delay: 0.7s;
+  transition-delay: 1.7s;
 }
 
 /* input#toggle:checked ~ #show-menu .btn:nth-child(2) { */
